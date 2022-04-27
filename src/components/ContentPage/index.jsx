@@ -15,6 +15,6 @@ export const TituloCategoria = styled.h1`
 `
 export const SubTituloCategoria = styled.p`
     padding: 0 0 5px 0;
-    font-size: 17px;
-    color: #000;
+    font-size: 16px;
+    color: #CACACA;
 `

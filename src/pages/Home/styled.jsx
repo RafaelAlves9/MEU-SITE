@@ -61,7 +61,7 @@ export const TitlleHeader = styled.div`
     }
     h1,h2{
         font-family: Arial, Helvetica, sans-serif;
-        background-image: linear-gradient(to bottom, #263F73 10%, #fff 90%);
+        background-image: linear-gradient(to bottom, #00BBC9 10%, #CACACA 90%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

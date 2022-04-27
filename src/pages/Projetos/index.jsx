@@ -1,9 +1,10 @@
 import { ResponsiveAppBar } from '../../components/NavBar';
 import { ContentPage, TituloCategoria, SubTituloCategoria } from '../../components/ContentPage';
 import { Container } from '@mui/material';
-import { ContainerProject, Card } from './styled';
-import ProjectInfo from './Info-Projetos'
-import { CardProject } from './Card'
+import { ContainerProject } from './styled';
+import ProjectInfo from './Info-Projetos';
+import { CardProject } from './Card';
+import { FooterPage } from '../../components/Footer';
 
 export const Projects = () => {
 
@@ -27,6 +28,7 @@ export const Projects = () => {
           ))}
         </ContainerProject>
       </Container>
+      <FooterPage/>
   </ContentPage>
   )
 }

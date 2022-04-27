@@ -24,7 +24,7 @@ export const Home = () => {
                   <h3>Olá! Meu nome é</h3>
                 </S.TitlleHeader>
                 <S.TitlleHeader>
-                  <h1>RAFAEL ALVES,</h1>
+                  <h1>Rafael Alves,</h1>
                 </S.TitlleHeader>
                 <S.TitlleHeader>
                   <p>e sou</p><h2>Desenvolvedor Web</h2>
