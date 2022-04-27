@@ -67,4 +67,13 @@ export const TitlleHeader = styled.div`
         -webkit-text-fill-color: transparent;
         color: #000;
     }
+
+    @media(max-width: 700px) {
+        h1{
+            font-size: 35px;
+        }
+        h2{
+            font-size: 25px;
+        }
+    }
 `
