@@ -77,3 +77,51 @@ export const TitlleHeader = styled.div`
         }
     }
 `
+export const SectionAboutMe = styled.section`
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(0,0,0,0.15);
+    padding: 30px 0;
+
+    @media(max-width: 700px) {
+        height: fit-content;
+    }
+`
+export const ContentAboutMe = styled.div`
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0;
+`
+export const AboutMe = styled.div`
+    height: 250px;
+    max-width: 400px;
+    width: 90%;
+    padding: 20px 0;
+    text-align: left;
+`
+export const HardSkills = styled.div`
+    height: fit-content;
+    min-height: 300px;
+    max-width: 450px;
+    width: 90%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+`
+export const ContentHardSkills = styled.div`
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+
+    img{
+        max-width: 60px;
+        max-height: 55px;
+        margin: 15px 7px;
+    }
+`

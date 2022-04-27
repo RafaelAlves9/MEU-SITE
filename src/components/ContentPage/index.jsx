@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ContentPage = styled.div`
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(to right top, #000 2%, #263F73 65%, #D9115A 95%);
+    background-image: linear-gradient(to right top, rgb(0,0,0,0.9) 1%, #263F73 65%, #D9115A 95%);
     color: white;
     text-align: center;
 `
