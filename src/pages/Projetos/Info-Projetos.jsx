@@ -16,7 +16,7 @@ import Anime from './image/anime.png';
 const ProjectInfo = () => {
     let apiInfo = [
         {
-            titlle: 'Criador de Notas',
+            titlle: 'CRUD - Criador de Notas',
             resumo: 'Projeto de criação de notas, com conceito CRUD de aplicação, que salva, edita e exclui as notas criadas.',
             tecnologias: 'JavaScript, ReactJs e sua Hooks, Styled-Components, Material-Ui,  Express e Banco de dados MySQL.',
             picture: Crud,
@@ -37,7 +37,7 @@ const ProjectInfo = () => {
             url: 'https://github.com/RafaelAlves9/Loja-Salgados'
         },
         {
-            titlle: 'Landing Page - Loja de Salgados',
+            titlle: 'Landing Page - Loja',
             resumo: 'Site feito usando a empresa de delivery de salgados de uma amiga, com uma Landing Page e uma página de simulação de compra IFood.',
             tecnologias: 'JavaScrip, Bootstrap, HTML5 e CSS3.',
             picture: Salgados,

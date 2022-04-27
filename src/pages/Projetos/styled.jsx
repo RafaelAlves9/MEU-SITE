@@ -11,7 +11,6 @@ export const Card = styled.div`
     max-width: 270px;
     height: 200px;
     margin-top: 20px;
-    border: 2px solid #263F73;
     border-radius: 3%;
     transition:all ease .35s;
     transform: scale(1);
@@ -22,19 +21,17 @@ export const Card = styled.div`
     box-shadow: 5px 5px 5px black;
 
     p{
-        color: #fff;
+        color: #CACACA;
         padding-top: 3px;
         font-weight: lighter;
         font-family: verdana, sans-serif;
         font-size: 15px;
     }
-
     img{
         height: 80%;
         width: 110%;
         position: center;
     }
-
     :hover{
         z-index: 99;
         transition:all ease .3s;
