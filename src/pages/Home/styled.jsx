@@ -9,7 +9,7 @@ export const SectionHeader = styled.div`
 
     @media(max-width: 700px) {
         flex-direction: column-reverse;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
     }
 `
@@ -18,6 +18,13 @@ export const ContainerName = styled.div`
     width: 100%;
     height: 150px;
     text-align: left;
+
+    @media(max-width: 700px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
 `
 export const ContainerImage = styled.div`
     max-width: 300px;
@@ -108,7 +115,7 @@ export const HardSkills = styled.div`
     width: 90%;
     padding: 20px 0;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
 `
 export const ContentHardSkills = styled.div`
