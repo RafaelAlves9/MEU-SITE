@@ -24,9 +24,9 @@ export const Contato = () => {
                         <C.SocialContainer>
                             <h3>Siga-me nas redes socias!</h3>
                             <ul>
-                                <li><a href="https://www.linkedin.com/in/Rafael-Alves412/"><img src={Linkedin} alt=""/><i>/Rafael-Alves412</i></a></li>
-                                <li><a href="https://github.com/RafaelAlves9"><img src={Github} alt=""/><i>/RafaelAlves9</i></a></li>
-                                <li><a href="https://wa.me/5521967112523?text=Ol%C3%A1%2C+vim+pelo+site%21"><img src={Whats} alt=""/><i>(21) 96711-2523</i></a></li>
+                                <li><a target='_blank' href="https://www.linkedin.com/in/Rafael-Alves412/"><img src={Linkedin} alt=""/><i>/Rafael-Alves412</i></a></li>
+                                <li><a target='_blank' href="https://github.com/RafaelAlves9"><img src={Github} alt=""/><i>/RafaelAlves9</i></a></li>
+                                <li><a target='_blank' href="https://wa.me/5521967112523?text=Ol%C3%A1%2C+vim+pelo+site%21"><img src={Whats} alt=""/><i>(21) 96711-2523</i></a></li>
                                 <li><a href="#"><img src={Discord} alt=""/><i>Rafael.a9#5611</i></a></li>
                             </ul>
                         </C.SocialContainer>
