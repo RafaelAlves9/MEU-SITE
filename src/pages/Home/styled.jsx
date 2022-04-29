@@ -86,6 +86,7 @@ export const TitlleHeader = styled.div`
 `
 export const SectionAboutMe = styled.section`
     height: fit-content;
+    min-height: 100vh;
     width: 100%;
     background-color: rgb(0,0,0,0.15);
     padding: 30px 0;
@@ -102,13 +103,15 @@ export const ContentAboutMe = styled.div`
     margin: 50px 0;
 `
 export const AboutMe = styled.div`
-    height: 250px;
+    margin: 10px 0;
+    height: 300px;
     max-width: 400px;
-    width: 90%;
+    width: 95%;
     padding: 20px 0;
     text-align: left;
 `
 export const HardSkills = styled.div`
+    margin: 10px 0;
     height: fit-content;
     min-height: 300px;
     max-width: 450px;
