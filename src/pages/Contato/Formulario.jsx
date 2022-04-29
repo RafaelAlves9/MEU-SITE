@@ -1,7 +1,6 @@
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 import { Button, TextField } from '@mui/material';
-import { Link } from 'react-router-dom';
 
 const validationSchema = yup.object({
     email: yup
@@ -32,7 +31,7 @@ export const Formulario = () => {
     
     return (
         <>
-            <form action="https://formsubmit.co/2264e4b3e2866291571f83186693a4c7" method="POST" onFocusCapture={formik.handleSubmit} onSubmit={()=> alert('Mensagem enviada com sucesso! Obrigado pelo contato.')}>
+            <form action="https://formsubmit.co/2264e4b3e2866291571f83186693a4c7" method="POST" onFocusCapture={formik.handleSubmit} onSubmit={()=> alert(`Obrigado pelo contato ${formik.values.name}! Mensagem enviada com sucesso!`)}>
                 <input type="hidden" name="_captcha" value='false'/>
                 <input type="hidden" name="_next" value="https://rafaelalves.vercel.app/contato"/>
                 <TextField

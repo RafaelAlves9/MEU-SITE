@@ -8,6 +8,7 @@ export const ContainerContact = styled.div`
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+
     h3{
         font-size: 18px;
         padding: 5px 0 10px 0;
@@ -19,9 +20,8 @@ export const ContainerContact = styled.div`
     }
 `
 export const SocialContainer = styled.div`
-    margin: 40px 0;
     width: 100%;
-    height: 250px;
+    height: 400px;
     max-width: 450px;
 
     h3{
@@ -50,13 +50,20 @@ export const SocialContainer = styled.div`
         justify-content: left;
         align-items: center;
     }
+    @media(max-width: 700px){
+        margin: 30px 0 0 0;
+    }
 `
 export const FormContainer = styled.div`
-    margin: 50px 0;
+    margin: 40px 0;
     width: 100%;
     height: 450px;
     max-width: 400px;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
+
+    @media(max-width: 700px){
+        margin: 0 0 30px 0;
+    }
 `
