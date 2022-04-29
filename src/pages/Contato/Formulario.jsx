@@ -32,7 +32,7 @@ export const Formulario = () => {
     
     return (
         <>
-            <form action="https://formsubmit.co/2264e4b3e2866291571f83186693a4c7" method="POST" onFocusCapture={formik.handleSubmit}>
+            <form action="https://formsubmit.co/2264e4b3e2866291571f83186693a4c7" method="POST" onFocusCapture={formik.handleSubmit} onSubmit={()=> alert('Mensagem enviada com sucesso! Obrigado pelo contato.')}>
                 <input type="hidden" name="_captcha" value='false'/>
                 <input type="hidden" name="_next" value="https://rafaelalves.vercel.app/contato"/>
                 <TextField
