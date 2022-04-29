@@ -28,7 +28,7 @@ export const SocialContainer = styled.div`
         padding: 5px 0 30px 0;
     }
     ul{
-        width: 150px;
+        width: 200px;
         margin: auto;
     }
     li{
