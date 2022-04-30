@@ -103,12 +103,15 @@ export const ContentAboutMe = styled.div`
     margin: 50px 0;
 `
 export const AboutMe = styled.div`
-    margin: 10px 0;
+    margin: 0 0 30px 0;
     height: 300px;
     max-width: 400px;
     width: 95%;
-    padding: 20px 0;
     text-align: left;
+    
+    p{
+        padding: 5px 0;
+    }
 `
 export const HardSkills = styled.div`
     margin: 10px 0;
@@ -134,4 +137,8 @@ export const ContentHardSkills = styled.div`
         max-height: 55px;
         margin: 15px 7px;
     }
+`
+export const Destaque = styled.span`
+    color: #00BBC9;
+    font-size: 16px;
 `

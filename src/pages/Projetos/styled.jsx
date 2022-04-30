@@ -22,13 +22,13 @@ export const Card = styled.div`
 
     p{
         color: #CACACA;
-        padding-top: 3px;
-        font-weight: lighter;
+        padding: 3px;
+        font-weight: 700;
         font-family: verdana, sans-serif;
-        font-size: 15px;
+        font-size: 14px;
     }
     img{
-        height: 80%;
+        height: 75%;
         width: 110%;
         position: center;
     }

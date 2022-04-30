@@ -17,7 +17,6 @@ export const Projects = () => {
         <ContainerProject>
           {ProjectInfo().map((index) => (
             <CardProject
-              
               url={index.url}
               key={index.id}
               titlle={index.titlle}

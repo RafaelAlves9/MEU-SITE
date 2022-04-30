@@ -46,22 +46,25 @@ export const Home = () => {
             <S.SectionAboutMe>
               <TituloCategoria>Um Pouco Sobre Mim</TituloCategoria>
               <S.ContentAboutMe>
-                <S.AboutMe data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1500">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aspernatur quo eum facere sunt accusamus doloremque excepturi itaque officiis soluta, necessitatibus sequi quam explicabo, voluptatibus sint numquam neque! Dignissimos, incidunt.
-                  Itaque odit iste optio quibusdam repellendus minima, modi provident nam obcaecati sunt. Placeat distinctio molestias excepturi. Quos mollitia eligendi maiores exercitationem cupiditate laudantium provident</p>
+                <S.AboutMe data-aos="fade-up" data-aos-duration="1000">
+                  <p> Olá! Estudo desenvolvimento há 5 meses, sou encantado por todas as possibilidades de criação que a programação traz e, principalmente, pelas atividades <S.Destaque><i>Front-End</i></S.Destaque>. </p>
+                  <p>Meus estudos sempre foram voltados pro <S.Destaque><i>ecossistema Javascrip</i></S.Destaque>, usando <S.Destaque><i>React</i></S.Destaque> como principal framework e <S.Destaque><i>Node</i></S.Destaque> no Back-End.</p>
+                  <p><S.Destaque><i>Trabalho como Desenvolvedor Web</i></S.Destaque> há menos de 1 mês, faço criação e manutenção de site para empresas e profissionais da minha região, usando as tecnologias que venho aprendendo durante esse tempo.</p>
+                  <p>Sou apaixonado por tecnologia e por como ela vem mudando nossas vidas, <S.Destaque><i>meu objetivo</i></S.Destaque> é ser um <S.Destaque><i>desenvolvedor profissional</i></S.Destaque>, <S.Destaque><i>capacitado</i></S.Destaque> e poder <S.Destaque><i>contribuir na vida das pessoas</i></S.Destaque> com minhas criações!</p>
+                  <p></p>
                 </S.AboutMe>
-                <S.HardSkills data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1500">
+                <S.HardSkills data-aos="fade-up" data-aos-duration="1000">
                   <h3>HARD SKILLS</h3>
                   <S.ContentHardSkills>
-                    <img src={Js} alt=""/>
-                    <img src={Ts} alt=""/>
-                    <img src={ReactJs} alt=""/>
-                    <img src={NodeJs} alt=""/>
-                    <img src={Sql} alt=""/>
-                    <img src={Boots} alt=""/>
-                    <img src={Ui} alt=""/>
-                    <img src={Html} alt=""/>
-                    <img src={Css} alt=""/>
+                    <img src={Js} alt="logo-js"/>
+                    <img src={Ts} alt="logo-ts"/>
+                    <img src={ReactJs} alt="logo-react"/>
+                    <img src={NodeJs} alt="logo-node"/>
+                    <img src={Sql} alt="logo-mysql"/>
+                    <img src={Boots} alt="logo-bootstrap"/>
+                    <img src={Ui} alt="logo-mui"/>
+                    <img src={Html} alt="logo-html"/>
+                    <img src={Css} alt="logo-css"/>
                   </S.ContentHardSkills>
                 </S.HardSkills>
               </S.ContentAboutMe>

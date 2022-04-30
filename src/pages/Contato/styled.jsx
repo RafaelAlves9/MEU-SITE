@@ -20,21 +20,15 @@ export const ContainerContact = styled.div`
     }
 `
 export const SocialContainer = styled.div`
-    width: 100%;
     height: 400px;
-    max-width: 450px;
+    width: 450px;
 
-    h3{
-        padding: 5px 0 30px 0;
-    }
     ul{
         width: 200px;
         margin: auto;
     }
     li{
         list-style: none;
-        display: flex;
-        justify-content: left;
         padding: 10px 0;
     }
     a{
@@ -50,6 +44,7 @@ export const SocialContainer = styled.div`
         justify-content: left;
         align-items: center;
     }
+    
     @media(max-width: 700px){
         margin: 30px 0 0 0;
     }
