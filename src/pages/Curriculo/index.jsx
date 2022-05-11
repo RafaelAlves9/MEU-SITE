@@ -17,15 +17,15 @@ export const Curriculo = () => {
               <S.TituloCategoria>Meu Currículo</S.TituloCategoria>
               <S.SubTituloCategoria>Veja e baixe meu currículo em PDF</S.SubTituloCategoria>
               <C.ContainerCategori>
-                <C.TitlleCategori data-aos="fade-right" data-aos-duration="1000"><h3>Experiência Profissional</h3></C.TitlleCategori>
-                <C.ResumeCategori  data-aos="fade-left" data-aos-duration="1000">
+                <C.TitlleCategori><h3>Experiência Profissional</h3></C.TitlleCategori>
+                <C.ResumeCategori>
                   <h4>Programador Web Freelancer</h4>
                   <p>- Criação e manutenção de sites para empresas e profissionais.</p>
                   <p>- Tecnologias principais: Javascript, ReactJs, Styled-Components, Material-UI, Bootstrap e etc.</p>
                   <p>- Início: 03/22 - O momento.</p> 
                 </C.ResumeCategori>
-                <C.TitlleCategori data-aos="fade-right" data-aos-duration="1000"><h3>Formação Acadêmica</h3></C.TitlleCategori>
-                <C.ResumeCategori  data-aos="fade-left" data-aos-duration="1000">
+                <C.TitlleCategori><h3>Formação Acadêmica</h3></C.TitlleCategori>
+                <C.ResumeCategori>
                   <h4>Análise e Desenvolvimento de Sistemas</h4>
                   <p>- Curso Superior de Tecnologia</p>
                   <p>- Universidade Estácio de Sá</p>
