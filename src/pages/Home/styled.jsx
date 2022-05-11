@@ -49,14 +49,14 @@ export const TitlleHeader = styled.div`
     align-items: center;
 
     h1{
-        font-size: 45px;
+        font-size: 50px;
         padding: 3px 0;
     }
     h2{
-        font-size: 31px;
+        font-size: 40px;
     }
     h3{
-        font-size: 23px;
+        font-size: 27px;
         font-family: verdana, sans-serif;
         color: #fff;
     }
