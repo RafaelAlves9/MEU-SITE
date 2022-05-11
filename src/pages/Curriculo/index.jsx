@@ -4,7 +4,7 @@ import { Container } from '@mui/material';
 import * as S from '../../components/ContentPage';
 import { FooterPage } from "../../components/Footer";
 import * as C from './styled';
-import CV from './file/Rafael-Alves--Dev.pdf';
+import CV from './file/Rafael Alves - Dev.pdf';
 import CapaCv from './file/capa-cv.png';
 
 export const Curriculo = () => {
