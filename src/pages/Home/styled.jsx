@@ -14,7 +14,7 @@ export const SectionHeader = styled.div`
     }
 `
 export const ContainerName = styled.div`
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     height: 150px;
     text-align: left;
