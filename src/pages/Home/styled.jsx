@@ -111,6 +111,7 @@ export const AboutMe = styled.div`
     
     p{
         padding: 5px 0;
+        font-size: 17px;
     }
 `
 export const HardSkills = styled.div`
